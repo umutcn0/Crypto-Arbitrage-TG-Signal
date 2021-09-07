@@ -10,8 +10,8 @@ import telebot
 from datetime import datetime, timedelta
 #09.06.2021 21:50 Güncelleme
 
-Bot_Token = "1712159334:AAGwq25dFU_YjbVG9fuiM_6DwV16oG1JEX8"
-Chat_ID = "-558315860"
+Bot_Token = "" # Telegram Bot Token
+Chat_ID = "" # Telegram Chat ID
 TradeBot = telebot.TeleBot(Bot_Token)
 
 def SendToTelegram(message):
